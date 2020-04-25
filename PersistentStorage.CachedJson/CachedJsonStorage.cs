@@ -5,7 +5,7 @@ using PersistentStorage.Cached;
 
 namespace PersistentStorage.CachedJson
 {
-    public class StorageMethodJSON<T> : ICachedStorageMethod<T>
+    public class CachedJsonStorage<T> : ICachedStorageMethod<T>
     {
         public JSONProperties Properties { get; set; }
 
@@ -13,7 +13,7 @@ namespace PersistentStorage.CachedJson
         {
             get
             {
-                return "PersistentStorage.CachedJson";
+                return "PersistentStorage.CachedJsonStorage";
             }
         }
 
