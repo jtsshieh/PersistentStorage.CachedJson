@@ -1,16 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>jtsshieh</Authors>
-    <PackageId>Garamia.PersistentStorage.JSON</PackageId>
+    <PackageId>Garamia.PersistentStorage.CachedJson</PackageId>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyName>PersistentStorage.CachedJson</AssemblyName>
+    <RootNamespace>PersistentStorage.CachedJson</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Garamia.PersistentStorage" Version="1.0.0" />
+    <PackageReference Include="Garamia.PersistentStorage" Version="1.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 

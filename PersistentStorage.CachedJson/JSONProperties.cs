@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PersistentStorage.JSON
+namespace PersistentStorage.CachedJson
 {
     public class JSONProperties : IProperties
     {

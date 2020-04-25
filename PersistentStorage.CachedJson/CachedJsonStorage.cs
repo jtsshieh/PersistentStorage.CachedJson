@@ -1,8 +1,9 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.IO;
+using Newtonsoft.Json;
+using PersistentStorage.Cached;
 
-namespace PersistentStorage.JSON
+namespace PersistentStorage.CachedJson
 {
     public class StorageMethodJSON<T> : ICachedStorageMethod<T>
     {
@@ -12,7 +13,7 @@ namespace PersistentStorage.JSON
         {
             get
             {
-                return "StorageMethod.Newtonsoft.JSON";
+                return "PersistentStorage.CachedJson";
             }
         }
 
